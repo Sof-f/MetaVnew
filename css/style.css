@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+.conrainer{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header{
+    background-color: #000000;
+    color: #fff;
+    
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: 
+    radial-gradient(circle at 30% -30%, #AA14F080, transparent 30%),
+    radial-gradient(circle at 130% 30%, #AA14F080, transparent 30%),
+    linear-gradient(to right, rgba(0, 0, 0, 1), rgba(20, 0, 40, 0.8));
+    background-color: #000; 
+    
+    
+}
+
+.header__top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.h1{
+    font-family: Orbitron;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.header__nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.header__nav-item{
+    padding-left: 53px;    
+}
+
+.header__nav-link{
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.header__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.header__explore{
+    padding-top: 140px;
+}
+
+.header__explore-title{
+    flex-direction: column;
+    padding-bottom: 48px;
+}
+
+.header__h2{
+    font-family: Orbitron;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 68px;
+}
+
+.header__h2::after{
+    content: "Meteverse";
+    font-family: Orbitron;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 72px;
+    background-image: linear-gradient(to right, #F86CF8,#64CEF5, #64CEF5);
+    color: transparent;
+    background-clip: text;
+    
+}
+
+.header__h3{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.header__explore-btn{
+    margin-top: 18px;
+
+}
+
+.header__btn-1{
+    margin-right: 16px;
+    width: 173;
+    height: 54;
+    gap: 10px;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+
+
+    background-image: linear-gradient(to right,#D10ED1 12.04%, #10A3DA 81.84%);
+
+
+}
+
+.header__btn-2{
+    width: 173;
+    height: 54;
+    gap: 10px;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+
+    background-color: transparent;
+
+    border-image: linear-gradient(to right,#D10ED1 12.04%, #10A3DA 81.84%) 3;
+    border-width: 1px;
+
+}
+
+.header__table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-right: 290px;
+}
+
+.table__title{
+    font-family: Orbitron;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.table__title-2{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header__img{
+    padding-top: 74px;
+    margin-right: -90px;
+    margin-left: 16px;
+}
