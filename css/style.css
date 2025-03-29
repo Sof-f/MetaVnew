@@ -6,10 +6,11 @@ body{
     background-color: #000;
 }
 
-.conrainer{
+.container{
     width: 1300px;
     margin: 0 auto;
     padding: 0 10px;
+
 }
 
 .header{
@@ -124,7 +125,7 @@ body{
 
     background-image: linear-gradient(to right,#D10ED1 12.04%, #10A3DA 81.84%);
 
-
+    cursor: pointer;
 }
 
 .header__btn-2{
@@ -145,7 +146,7 @@ body{
 
     border-image: linear-gradient(to right,#D10ED1 12.04%, #10A3DA 81.84%) 3;
     border-width: 1px;
-
+    cursor: pointer;
 }
 
 .header__table{
@@ -173,4 +174,196 @@ body{
     padding-top: 74px;
     margin-right: -90px;
     margin-left: 16px;
+}
+
+
+
+.main{
+    background-color: #000000;
+    color: #fff;
+    
+    width: 100%;
+    height: 100vh; 
+    background: 
+    radial-gradient(circle at -20% 50%, #AA14F080, transparent 30%),
+    linear-gradient(to right, rgba(0, 0, 0, 1), rgba(20, 0, 40, 0.8));
+    background-color: #000;  
+    
+}
+
+.what{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+.what__description{
+    padding: 96px 0 96px 200px;
+
+}
+
+.what__h2{
+    font-family: Orbitron;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.what__h2::after{
+    content: "Meteverse";
+    font-family: Orbitron;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 72px;
+    background-image: linear-gradient(to right, #F86CF8,#64CEF5, #64CEF5);
+    color: transparent;
+    background-clip: text;
+    margin-left: 10px;
+}
+
+.what__h3{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;    
+}
+
+.what__btn{
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    background-image: linear-gradient(to right,#D10ED1 12.04%, #10A3DA 81.84%);
+    font-family: Poppins;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+.work{
+    margin-top: 160px;
+}
+
+.work__top{
+    margin-left: 35%;
+    width: 502px;
+
+}
+
+.work__h2{
+    font-family: Orbitron;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.work__h2::after{
+    content: "Meteverse work";
+    font-family: Orbitron;
+    font-weight: 600;
+    font-size: 35px;
+    background-image: linear-gradient(to right, #F86CF8,#64CEF5, #64CEF5);
+    color: transparent;
+    background-clip: text;
+    margin-left: 10px;
+}
+
+.work__h3{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.work__content{
+    margin-top: 80px;
+    
+}
+
+.work__content-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 38px;
+    margin-bottom: 36px;
+}
+
+.work__content-botton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 38px;
+}
+
+.work__content-item{
+    padding: 19px 20px 37px 20px;
+    background-color: #090823;
+    border-radius: 10%;
+    
+}
+
+.work__img{
+    width: 335;
+    height: 217;
+    border-top-right-radius: 15px;
+
+}
+
+.work__h3{
+    font-family: Orbitron;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+    
+
+}
+
+.work__h4{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    width: 336px;
+
+}
+
+.work__btn-1{
+    width: 103;
+    height: 36;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    background-image: linear-gradient(to right,#D10ED1 12.04%, #10A3DA 81.84%);
+    margin-top: 28px;
+    margin-right: 18px;
+}
+
+.work__btn-2{
+    width: 103;
+    height: 36;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: transparent;
+
+    border-image: linear-gradient(to right,#D10ED1 12.04%, #10A3DA 81.84%) 3;
+    border-width: 1px;
+    cursor: pointer;
+    margin-top: 28px;
 }
